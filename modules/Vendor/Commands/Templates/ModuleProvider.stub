@@ -1,0 +1,32 @@
+<?php
+
+namespace Modules\{module};
+
+use Illuminate\Support\ServiceProvider;
+use Modules\{module}\Repositories\Contracts\{module}RepositoryInterface;
+use Modules\{module}\Repositories\Eloquent\{module}Repository;
+use Modules\{module}\RouteServiceProvider;
+
+class ModuleProvider extends ServiceProvider
+{
+    public function boot()
+    {
+        $this->loadMigrationsFrom(__DIR__ . '/Database/Migrations');
+    }
+
+    public function register()
+    {
+        $this->app->register(RouteServiceProvider::class);
+
+        $this->app->singleton(
+            {module}RepositoryInterface::class,
+            {module}Repository::class
+        );
+
+    }
+
+
+
+
+
+}

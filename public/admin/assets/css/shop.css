@@ -1,0 +1,35 @@
+#star-required {
+    color: red;
+}
+td, th {
+    vertical-align: middle;
+}
+
+.btn a {
+    text-decoration: none; /* Loại bỏ gạch chân */
+    color: inherit; /* Màu sắc kế thừa từ thẻ cha */
+}
+
+
+.note-icon-caret:before {
+    content: none !important;
+}
+
+.note-resizebar {
+    display: none !important;
+}
+.note-statusbar.locked {
+    display: none !important;
+}
+.note-btn{
+    border: 0 !important;
+}
+.note-btn:hover{
+    background: #edf2fa !important;
+}
+.note-toolbar {
+    background: 0 !important;
+}
+.btn-save {
+    min-width: 150px;
+}

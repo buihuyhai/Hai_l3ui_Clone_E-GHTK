@@ -1,0 +1,36 @@
+{
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build"
+    },
+    "devDependencies": {
+        "@tailwindcss/forms": "^0.5.2",
+        "alpinejs": "^3.4.2",
+        "autoprefixer": "^10.4.2",
+        "axios": "^1.6.4",
+        "laravel-vite-plugin": "^1.0",
+        "postcss": "^8.4.31",
+        "tailwindcss": "^3.1.0",
+        "sass": "^1.56.1",
+        "vite": "^5.0"
+    },
+    "dependencies": {
+        "@pqina/filepond-plugin-image-editor": "^9.x",
+        "@pqina/pintura": "^8.x",
+        "filepond": "^4.x",
+        "filepond-plugin-file-poster": "^2.x",
+        "filepond-plugin-file-validate-size": "^2.2.8",
+        "filepond-plugin-file-validate-type": "^1.2.9",
+        "filepond-plugin-image-crop": "^2.0.6",
+        "filepond-plugin-image-edit": "^1.6.3",
+        "filepond-plugin-image-exif-orientation": "^1.0.11",
+        "filepond-plugin-image-preview": "^4.6.12",
+        "filepond-plugin-image-resize": "^2.0.10",
+        "filepond-plugin-image-transform": "^3.8.7",
+        "laravel-echo": "^1.16.1",
+        "pusher-js": "^8.4.0-rc2",
+        "tinymce": "^7.1.0"
+    }
+}
